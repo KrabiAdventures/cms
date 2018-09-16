@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import Logo from './patterns/atoms/Logo';
+import * as React from 'react';
 import './App.css';
+import Logo from './patterns/atoms/Logo';
 
-class App extends Component {
-  render() {
+class App extends React.Component {
+  public render() {
     return (
       <div className="App">
         <header className="App-header">
-          <Logo></Logo>
+          <Logo />
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
